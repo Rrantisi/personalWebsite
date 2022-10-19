@@ -1,0 +1,127 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+text-align: center;
+background: url('img1.jpg');
+background-size: cover;
+color: black;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container {
+background-color:rgb(246, 142, 178);
+}
+
+/* .container li {
+list-style-type: none;
+} */
+
+.container a {
+display: inline-block;
+padding: 18px;
+/* margin: 0 25px; */
+text-align: center;
+text-decoration: none;
+color:rgb(150, 15, 141);
+}
+
+h1 {
+font-size: 28px
+}
+p {
+font-size: 16px;
+margin: 5px;
+}
+
+.container a {
+color:rgb(150, 15, 141);
+font-weight: 700;
+}
+
+.container a:hover {
+background: lightpink;
+display:flex;
+justify-content: center;
+color:black;
+font-size: larger;
+}
+
+a:visited {
+color: purple;
+}
+
+.social a:hover {
+font-size: larger;
+color: navy;
+}
+
+input {
+border: 0;
+padding: 15px;
+margin: 30px 10px;
+font-size: 18px;
+}
+.submit {
+background: rgb(74, 74, 163);
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.submit:active {
+transform: scale(0.98);
+box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
+}
+input[placeholder="Your email"] {
+font-style: oblique;
+}
+
+img {
+margin: 10px 0px 0px 0px;
+/* border: 1px double black; */
+border-radius: 50%;
+max-width: 35%;
+max-height: auto;
+}
+
+.social li {
+display: inline;
+padding: 0px 10px;
+}
+
+.social a {
+color: royalblue;
+font-weight: 800;
+text-decoration: none;
+}
+
+/* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+input.email:invalid {
+    box-shadow: 0 0 5px 0px red;
+}
+
+.show-description.list {
+height: 150px;
+}
+
+.show-description small {
+opacity: 1;
+}
+
+@media (max-width: 500px) {
+input {
+    border: 0;
+    padding: 8px;
+    margin: 10px 5px;
+    font-size: 12px;
+}
+body {
+    font-size: smaller;
+  }
+.container a {
+    padding: 15px;
+}
+}

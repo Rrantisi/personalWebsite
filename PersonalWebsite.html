@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reham Rantisi</title>
+  <link href="personalWebsite.css" rel="stylesheet">
+</head>
+<body>
+    <img src="portrait.png" alt="myPhoto">
+    <h1>Hey there!</h1>
+    <p>I'm Reham, a future software developer. Say hello!</p>
+    <input type="email" class="email" placeholder="Your email">
+    <input type="submit" class="submit">
+    <p>Learn more about me:</p>
+    <ul class="container">
+        <li><a href='#'>Skills</a></li>
+        <li><a href='#'>Education</a></li>
+        <li><a href='#'>Experience</a></li>
+    </ul>
+    <p>Follow me:</p>
+    <ul class="social">
+        <li><a href="https://www.kaggle.com/rehamaboudirantisi/account"> Kaggle </a></li>
+        <li><a href="https://github.com/Rrantisi"> Github </a></li>
+        <li><a href="https://www.linkedin.com/in/reham-aboudirantisi/"> LinkedIn </a></li>
+    </ul>
+    <script>
+        $('div').on('click', function() {
+            $(this).toggleClass('show-description');
+        });
+    </script>
+</body>
+</html>
